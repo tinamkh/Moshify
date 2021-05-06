@@ -205,7 +205,8 @@ font-size: 1.6rem;
   
   .btn--outline{
       border: 2px solid var(--color-headings);
-      color:var(--color-headings)
+      color:var(--color-headings);
+      background-color: white;
   }
   .btn--outline:hover{
       background-color: var(--color-headings);
@@ -353,5 +354,20 @@ font-size: 1.6rem;
       font-size: 1.7rem;
     }
   }
+
+  /*media objects*/
+  .media{
+      display: flex;
+  }
+  .media__title{
+      margin-top: 0;
+  }
   
+  .media__body {
+    margin: 0 2rem;
+  }
+  
+  .media__image {
+    margin-top: 1rem;
+  }
   
