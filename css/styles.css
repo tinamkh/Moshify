@@ -223,6 +223,10 @@ font-size: 1.6rem;
       background-color: var(--color-headings);
       color:white;
   }
+  .btn--stretched{
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
 
   .btn--block{
       width: 100%;
@@ -477,3 +481,40 @@ font-size: 1.6rem;
   }
 }
 
+/*callouts*/
+.callout{
+  border-radius: 5px;
+  padding: 4rem;
+}
+
+.callout--primary{
+  background-color: var(--color-primary);
+  color:white;
+}
+
+.callout__heading{
+  margin-top: 0;
+  color: #fff;
+  font-size: 3rem;
+}
+
+.callout .btn{
+  justify-self: center;
+  align-self: center;
+}
+.callout__content{
+  text-align: center;
+}
+
+@media screen and ( min-width: 768px){
+  .callout__content{
+    text-align: left;
+  }
+  .callout .btn{
+    justify-self: left;
+    margin: 0 2rem;
+  }
+  .callout .grid--1x2{
+    grid-template-columns: 1fr auto;
+  }
+}
