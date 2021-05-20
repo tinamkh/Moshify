@@ -312,6 +312,12 @@ font-size: 1.6rem;
       color:white;
       background-color: var(--color-secondary);
   }
+  .card--secondary .badge--secondary{
+    background-color: #02cdf1;
+  }
+  .card--primary .badge--primary{
+   background-color: #126de4;
+  }
 
   /*plans*/
 
@@ -641,7 +647,7 @@ font-size: 1.6rem;
     border: 0;
   }
 }
-/*her*/
+/*hero*/
 
 .hero__tagline{
   font-size: 2rem;
@@ -691,4 +697,26 @@ font-size: 1.6rem;
   .block-domain__prices {
     grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
   }
+}
+
+/*plans block*/
+.block-plans .grid{
+  gap: 8rem 4rem;
+}
+
+.block-plans .card{
+  max-width: 500px;
+  margin: 0 auto;
+}
+.plan--popular{
+  transform: scale(1.1);
+}
+.plan:hover{
+  transform:scale(1.05);
+}
+.plan--popular:hover{
+  transform: scale(1.15);
+}
+.plan{
+  transition: transform 0.2s ease-out;
 }
