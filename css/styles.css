@@ -720,3 +720,19 @@ font-size: 1.6rem;
 .plan{
   transition: transform 0.2s ease-out;
 }
+/*feature block*/
+.feature_heading{
+  margin: 1rem 0;
+}
+
+feature{
+  gap: 4rem;
+  margin: 12rem 0;
+}
+
+.feature__image{
+  width: 100%
+}
+.feature:first-of-type{
+  margin-top: 6rem;
+}
